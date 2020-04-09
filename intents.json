@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","what are you?","who are you?"],
+         "responses": ["You can call me Tim.", "I'm Tim! Who are you?"],
+         "context_set": ""
+        },
+        {"tag": "state",
+         "patterns": ["are you a machine", "are you a computer", "are you a human being","are you human","are you a human being"],
+         "responses": ["i'm an artificial intelligence program that tries mimic humans.", "i'm a chat robot or chatbot if you prefer.","is that question really relevant?"],
+         "context_set": ""
+        },
+        {"tag": "identity",
+         "patterns": ["My name is", "I am"],
+         "responses": ["Ok I see, so that's your name","You've got such a nice name"],
+         "context_set": ""
+        },
+        {"tag": "patient",
+         "patterns":["i am deppressed","it's depressing","i am sad"],
+         "responses":["why are you feeling like that","What happend to you"],
+         "context_set":""
+        },
+        {"tag": "xnone",
+         "patterns":["","\t","\n"],
+         "responses":["i don't get it","i don't understand","don't be quiet, say something"],
+         "context_set":""
+        },
+        {"tag": "reidentity",
+         "patterns":["do you know my name","do you remeber my name"],
+         "responses":["yes, your name is"],
+         "context_set":""
+        },
+        {"tag": "well",
+         "patterns":["how are you","how do you feel"],
+         "responses":["i'm doing pretty well and you?","i guess that that everything is going fine so far.","i'm ok, how about you?"],
+         "context_set":""
+        },
+        {"tag": "blank_que",
+         "patterns":["what","when","how","where","who","why"],
+         "responses":["how would i know","why ask such question?","stop questioning me.","idon't think that this is relevant"],
+         "context_set":""
+        },
+        {"tag": "game",
+         "patterns":["can you play chess","can you play checkers","do you play go"],
+         "responses":["i don't play so many games, how about you?","no i don't play games"],
+         "context_set":""
+        }
+   ]
+}
